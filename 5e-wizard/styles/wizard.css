@@ -1,0 +1,37 @@
+.spellMastery .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+  }
+  
+  .spellMastery .radio-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    flex: 1 0 25%;
+    line-height: normal;
+  }
+  
+  .spellMastery .radio-label input {
+    display: none;
+  }
+  
+  .spellMastery img {
+    border: 0px;
+    width: 50px;
+    height: 50px;
+    flex: 0 0 50px;
+    cursor: pointer;
+  }
+  .spellMastery :disabled + img {
+    filter: grayscale(1);
+  
+  }
+      
+  /* CHECKED STYLES */
+  .spellMastery [type=radio]:checked + img {
+    outline: 2px solid #f00;
+  }

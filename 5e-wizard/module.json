@@ -1,0 +1,44 @@
+{
+    "name": "5e-wizard",
+    "title": "5e Wizard",
+    "description": "Midi QoL automation for the 5e Wizard class and subclasses",
+    "version": "0.1.10",
+    "library": "false",
+    "manifestPlusVersion": "1.0.0",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9",
+    "authors": [
+        {
+            "name": "Kandashi",
+            "url": "https://github.com/kandashi",
+            "discord": "Kandashi (He/Him)#6698"
+        }
+    ],
+    "dependencies": [
+        {
+            "name": "dae",
+            "manifest": "https://gitlab.com/tposney/dae/raw/master/package/module.json"
+        },
+        {
+            "name": "midi-qol",
+            "manifest": "https://gitlab.com/tposney/midi-qol/raw/master/package/module.json"
+        }
+    ],
+    "esmodules": [
+        "/scripts/Wizard.js",
+        "/scripts/wizard-hooks.js"
+    ],
+    "styles": [
+        "/styles/wizard.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json"
+        }
+    ],
+    "url": "https://github.com/kandashi/5e-wizard",
+    "manifest": "https://github.com/kandashi/5e-wizard/releases/latest/download/module.json",
+    "download": "https://github.com/kandashi/5e-wizard/releases/download/0.1.10/module.zip"
+}
